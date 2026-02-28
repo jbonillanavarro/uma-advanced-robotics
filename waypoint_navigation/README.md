@@ -10,6 +10,6 @@ The core of this project is a point-to-point navigation system. The robot follow
 
 
 ### Key Technical Details:
-* **Kinematics:** Differential drive model with a wheel track of $0.331$m and wheel radius of $0.0975$m.
-* **Control:** Proportional heading control with a constant linear velocity of $1.2$ m/s.
-* **Logic:** Automatic waypoint switching upon entering a $1.0$-meter acceptance radius.
+* **Kinematics**: Differential drive model with a wheel track of **0.331 m** and wheel radius of **0.0975 m**.
+* **Control**: Proportional heading control with a constant linear velocity of **1.2 m/s**.
+* **Logic**: Automatic waypoint switching upon entering a **1.0-meter** acceptance radius.
