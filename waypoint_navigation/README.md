@@ -1,9 +1,6 @@
 # Explicit Path Tracking for Pioneer 3DX
+<img src="simulation.gif" width="500" alt="Pioneer 3DX Navigation Demo">
 
-<img src="simulation.gif" width="600" alt="Pioneer 3DX Navigation Demo">
-<img src="isaacsim.gif" width="600" alt="Nova Carter Isaac Sim Navigation">
-
-![Pioneer 3DX Navigation Demo](simulation.gif)
 
 This section contains a **ROS 2 Humble** implementation of an explicit path tracking controller for a **Pioneer 3DX** differential drive robot. This practice was developed as part of the **Advanced Robotics** subject in the fourth year of the **Electronic, Robotic, and Mechatronic Engineering** degree at the **University of Málaga (UMA)**.
 
@@ -18,7 +15,7 @@ The original legacy environment used for initial development.
 * **Kinematics:** Wheel base of **0.331 m**, Wheel radius of **0.0975 m**.
 * **ROS 2 Topics:** `/PioneerP3DX/cmd_vel` and `/PioneerP3DX/odom`.
 
-![Nova Carter Isaac Sim Navigation](isaacsim.gif)
+<img src="isaacsim.gif" width="500" alt="Nova Carter Isaac Sim Navigation">
 
 ### 2. NVIDIA Isaac Sim (Nova Carter)
 *Note: This scene was created purely for educational purposes to learn Omniverse and PhysX integration.*
