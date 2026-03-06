@@ -9,8 +9,6 @@ Unlike explicit navigation using predefined waypoints, this project focuses on e
 1. **The Pure Pursuit Controller:** Implementation of the control loop.
 2. **Emergency Stop Service:** Design and implementation of a synchronous ROS 2 Service Server (`/emergency_stop`) that allows external clients to halt the robot when frontal obstacles are critically close.
 
-* **Parameters (Corridor width, Look-ahead distance, Limits):** Modify `seg_tray/config/corr_params.yaml`
-
 ### 1. CoppeliaSim (Pioneer 3DX)
 The simulation environment used to validate the lateral controller and the client-server architecture.
 * **Sensors used:** `/PioneerP3DX/laser_scan` (to compute lateral distance and frontal collision warnings).
