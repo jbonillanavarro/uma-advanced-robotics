@@ -13,6 +13,5 @@ corr_nav_node:
     wheel_radius: 0.097518  # meters
 
     # corridor parameters
-    # corridor_width: 4.6  # meters
-    corridor_width: 3.5  # meters
-    look_ahead_distance: 2.0  # meters
+    corridor_width: 4.6  # meters
+    look_ahead_distance: 1.0  # meters
