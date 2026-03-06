@@ -20,9 +20,9 @@ public:
 
         RCLCPP_INFO(this->get_logger(), "NavP2PNode started");
         // Publisher for cmd_vel
-        cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+        cmd_vel_pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/PioneerP3DX/cmd_vel", 10);
         // Subscriber for robot pose
-        pose_sub_ = this->create_subscription<nav_msgs::msg::Odometry>("/odom", 10,
+        pose_sub_ = this->create_subscription<nav_msgs::msg::Odometry>("/PioneerP3DX/odom", 10,
             std::bind(&NavP2PNode::odomCallback, this, std::placeholders::_1));
 
         // Timer to publish velocity commands at regular intervals
