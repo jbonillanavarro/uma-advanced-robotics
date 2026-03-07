@@ -15,6 +15,8 @@ The original legacy environment used for initial development.
 
 <img src="simulation.gif" width="500" alt="Pioneer 3DX Navigation Demo">
 
+---
+
 ### 2. NVIDIA Isaac Sim (Nova Carter)
 *Note: This scene was created purely for educational purposes to learn Omniverse and PhysX integration.*
 * **Kinematics:** Wheel base of **0.4132 m**, Wheel radius of **0.14 m**.
