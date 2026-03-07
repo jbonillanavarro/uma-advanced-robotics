@@ -8,6 +8,8 @@ The core of this project is a point-to-point navigation system. The robot follow
 * **Kinematics (Wheel base & radius):** Modify `seg_tray/config/nav_params.yaml`
 * **ROS 2 Topics (Publisher & Subscriber):** Modify `seg_tray/src/nav_p2p.cpp`
 
+---
+
 ### 1. CoppeliaSim (Pioneer 3DX)
 The original legacy environment used for initial development.
 * **Kinematics:** Wheel base of **0.331 m**, Wheel radius of **0.0975 m**.
